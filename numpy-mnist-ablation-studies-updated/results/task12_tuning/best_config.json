@@ -1,0 +1,33 @@
+{
+  "layer_sizes": [
+    784,
+    256,
+    256,
+    10
+  ],
+  "activations": [
+    "relu",
+    "relu",
+    "softmax"
+  ],
+  "init": "he",
+  "lr": 0.1,
+  "batch_size": 32,
+  "epochs": 5,
+  "optimizer": "sgd",
+  "loss": "cross_entropy",
+  "weight_decay": 0.0,
+  "dropout": 0.0,
+  "seed": 42,
+  "preprocessing": "zero_one",
+  "architecture": "plain",
+  "branch_widths": [
+    128,
+    128
+  ],
+  "batch_norm": false,
+  "augment": false,
+  "early_stopping": false,
+  "patience": 3,
+  "schedule": "constant"
+}
