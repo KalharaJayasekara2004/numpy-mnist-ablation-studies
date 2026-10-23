@@ -1,0 +1,27 @@
+# Original MNIST data remains local. The scripts read these from project root.
+mnist_train.csv
+mnist_test.csv
+
+# Large, automatically generated training outputs. Curate key artifacts into figures/ and results/.
+/Results/
+
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local development tools and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Secrets (do not commit tokens or credentials)
+.env
+.env.*
+*.pem
