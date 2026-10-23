@@ -1,7 +1,0 @@
-{
-  "gradient_relative_error": 3.43393887674054e-10,
-  "initial_loss": 2.3694393634796143,
-  "expected_initial_loss_ln10": 2.302585092994046,
-  "single_batch_accuracy": 1.0,
-  "updates": 10
-}

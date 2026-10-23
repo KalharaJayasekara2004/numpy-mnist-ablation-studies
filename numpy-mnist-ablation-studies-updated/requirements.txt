@@ -1,4 +1,0 @@
-numpy
-pandas
-matplotlib
-scipy  # required by MNIST_1_TASK8.py for image augmentation

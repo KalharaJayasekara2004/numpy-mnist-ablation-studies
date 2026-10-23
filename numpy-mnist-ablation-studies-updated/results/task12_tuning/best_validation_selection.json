@@ -1,6 +1,0 @@
-{
-  "winner_label": "random_15",
-  "winner_val_accuracy": 0.952,
-  "winner_test_accuracy": 0.9552,
-  "note": "Winner is selected by validation accuracy on the 10k-image training subset."
-}
